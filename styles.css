@@ -3,16 +3,41 @@ html {
     box-sizing: border-box;
 }
 
+body {
+    background-color: rgba(71, 204, 115, 0.397);
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(0, 0, 0);
+
+}
+
+h1, h2, h3, h4, h5, h6   {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(0, 0, 0);
+}
+
 section {
     width: 1000px;
     height: fit-content;
     background-color: rgb(71, 204, 115);
-    margin: 10px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
     border-radius: 20px;
-    padding: 10px;
+    padding: 15px;
     display: inline,
+    
 
 }
 input, textarea {
     display: block;
+    
      }
+label{
+    color: rgb(255, 255, 255);
+}
+.box{
+    background-color: rgb(71, 204, 115, 0.397);
+    padding: 5px;
+    width: 100%;
+}
