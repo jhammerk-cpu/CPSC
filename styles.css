@@ -1,3 +1,18 @@
+div {
+    
+    box-sizing: border-box;
+}
+
+section {
+    width: 1000px;
+    height: fit-content;
+    background-color: rgb(71, 204, 115);
+    margin: 10px;
+    border-radius: 20px;
+    padding: 10px;
+    display: inline,
+
+}
 input, textarea {
     display: block;
      }
