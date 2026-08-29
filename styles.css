@@ -13,9 +13,10 @@ body {
 h1, h2, h3, h4, h5, h6, caption   {
     text-align: center;
     font-family: 'Calibri', sans-serif;
-    font-size: 40px;
-    color: rgb(0, 0, 0);
+    font-size: 60px;
+    
 }
+
 
 section {
     width: 1000px;
@@ -25,8 +26,11 @@ section {
     margin-bottom: 20px;
     margin-top: 20px;
     border-radius: 20px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: rgb(0,0,0);
     padding: 15px;
-    display: inline,
+    
     
 
 }
@@ -70,15 +74,29 @@ label{
     width: 50%;
     
 }
-.box{
+/*.box{
     background-color: rgb(71, 204, 115, 0.397);
     padding: 5px;
     width: 100%;
-}
+}*/
 .schedule {
-   
     margin-left: auto;
-  margin-right: auto;
-    padding: 5px;
+    margin-right: auto;
     width: 100%;
+}
+
+th{
+
+    border: none;
+    border-width: 3px;
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
+    background-color: rgb(155, 247, 185);
+    
+    font-weight: bold;
+    font-size: 17px;
+}
+tbody td{
+    background-color: rgb(255, 255, 255);
+    border: 3px solid rgb(0, 0, 0);
 }
