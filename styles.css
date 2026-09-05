@@ -1,9 +1,11 @@
 html {
     
     box-sizing: border-box;
+    
 }
 
 body {
+    
     background-color: rgba(71, 204, 115, 0.397);
     font-family: 'Courier New', Courier, monospace;
     color: rgb(0, 0, 0);
@@ -19,8 +21,9 @@ h1, h2, h3, h4, h5, h6, caption   {
 
 
 section {
-    width: 1000px;
+    
     height: fit-content;
+    width: 75%;
     background-color: rgb(71, 204, 115);
     margin: 0 auto;
     margin-bottom: 20px;
@@ -34,6 +37,11 @@ section {
     
 
 }
+img{
+    width: 75%;
+    height: auto;
+}
+
 input, label, textarea, select {
     display: block;
     margin: 10px;
@@ -80,6 +88,7 @@ label{
     width: 100%;
 }*/
 .schedule {
+
     margin-left: auto;
     margin-right: auto;
     width: 100%;
@@ -97,6 +106,54 @@ th{
     font-size: 17px;
 }
 tbody td{
+    
     background-color: rgb(255, 255, 255);
     border: 3px solid rgb(0, 0, 0);
+    
 }
+
+.container_links {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+.container_links a {
+
+    width: fit-content;
+    
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    
+    font-weight: bold;
+    font-size: 20px;
+    border: 5px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    padding: 5px; 
+}
+@media all and (max-width: 600px) {
+   
+    .container_links {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        gap: 10px;
+        margin-bottom: 20px;
+    }
+    .container_links a{
+        display: flex;
+        width: 75%;
+    
+    
+        flex-direction: column;
+        justify-content: flex-start;
+        gap: 10px;
+        margin: 0 auto;
+        margin-bottom: 10px;
+        padding: 3px;
+        text-align: center;
+
+    }
+}
+
