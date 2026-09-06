@@ -139,12 +139,13 @@ tbody td{
 .container_links {
     display: flex;
     justify-content: center;
-    flex-direction: row;
+    flex-flow: wrap;
     gap: 10px;
     margin-bottom: 20px;
 }
 .container_links a {
-
+    display: inline-flex;
+    flex-flow: row-wrap;
     width: fit-content;
     
     text-decoration: none;
@@ -156,6 +157,9 @@ tbody td{
     border-radius: 10px;
     padding: 5px; 
 }
+
+
+
 @media all and (max-width: 600px) {
    
     .container_links {
